@@ -490,7 +490,7 @@
                        {:text "Rumunsko" :sort-value 27}]}
               {:type :sort
                :text "Seřadte sestupně následující instituce v Česku dle procentního zastoupení žen (listopad 2024):"
-               :items [{:text "Zastupitelstva měst a obcí" :sort-value 28}
+               :items [{:text "Zastupitelstva měst a obcí" :sort-value 29}
                        {:text "Poslanecká sněmovna" :sort-value 25}
                        {:text "Senát" :sort-value 21}
                        {:text "Vláda" :sort-value 6}]}
@@ -902,7 +902,7 @@
                :text "Která kniha začíná touto větou: \"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in a want of a wife.\"?"
                :choices [{:text "Pýcha a předsudek" :correct? true}
                          {:text "Jane Eyre"}
-                         {:text "Emma"}
+                         {:text "Pán prstenů"}
                          {:text "Babička"}]}
               {:type :multiple
                :text "Která žena je nazývána šedou eminencí českého filmu a divadla? Byla i součástí Československé nové vlny."
@@ -1042,19 +1042,19 @@
                          {:text "Výpočetní techniku"}
                          {:text "Lékařství"}]}
               {:type :percent-range
-               :text "Kolik procent žen je ve vládě České republiky k srpnu 2024?"
-               :percentage 5.5}
+               :text "Kolik procent žen je ve vládě České republiky k listopadu 2024?"
+               :percentage 5.9}
               {:type :percent-range
-               :text "Kolik procent žen je v senátu České republiky k dubnu 2024?"
-               :percentage 18.5}
+               :text "Kolik procent žen je v senátu České republiky k listopadu 2024?"
+               :percentage 21}
               {:type :percent-range
-               :text "Kolik procent žen je v poslanecké sněmovně České republiky k dubnu 2024?"
-               :percentage 26}
+               :text "Kolik procent žen je v poslanecké sněmovně České republiky k listopadu 2024?"
+               :percentage 25}
               {:type :percent-range
-               :text "Kolik procent žen je v zastupitelstvech krajů České republiky k dubnu 2024?"
-               :percentage 22}
+               :text "Kolik procent žen je v zastupitelstvech krajů České republiky k listopadu 2024?"
+               :percentage 21.2}
               {:type :percent-range
-               :text "Kolik procent žen je v zastupitelstvech měst a obcí České republiky k dubnu 2024?"
+               :text "Kolik procent žen je v zastupitelstvech měst a obcí České republiky k listopadu 2024?"
                :percentage 29}
               {:type :percent-range
                :text "Kolik procent žen je v týmu poradců prezidenta Petra Pavla k zahraniční politice k dubnu 2024?"
@@ -1220,7 +1220,7 @@
                :text "Do roku 1982 mohly hospody ve Velké Británii legálně odmítnout obsloužit ženy."
                :correct? true}
               {:type :percent-range
-               :text "Kolik procent cyklistek v Praze v současnosti tvoří ženy?"
+               :text "Kolik procent cyklistek v Praze v současnosti (srpen 2024) tvoří ženy?"
                :percentage 23
                :note [:a {:href "https://mestemnakole.cz/2024/08/women-dont-cycle-a-cycling-training-course-to-improve-emancipation-on-the-road/"} "Zdroj"]}
               {:type :multiple
