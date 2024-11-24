@@ -664,7 +664,7 @@
                :text "Jak jmenuje surrealistický film Věry Chytilové z roku 1966 o dvou dívkách, které se nudí?"
                :answer "Sedmikrásky"}
               {:type :open
-               :text "Jak se jmenovala výrazná představitelka československé nové vlny v 60. letech 20. letech, která kombinovala řadu uměleckých profesí, neboť byla režisérka, dramatička, spisovatelka, scenáristka, výtvarnice, scénografka a kostýmní návrhářka?"
+               :text "Jak se jmenovala výrazná představitelka československé nové vlny v 60. letech 20. století, která byla režisérka, dramatička, spisovatelka, scenáristka, výtvarnice, scénografka a kostýmní návrhářka?"
                :answer "Ester Krumbachová"}
               {:type :yesno
                :text "První československá ministryně byla zvolena ve volbách roku 1925."
@@ -1206,10 +1206,6 @@
                :text "První zemí, která zavedla bezpodmíněčná stejná dědická práva pro muže a ženy byl Island."
                :correct? true
                :note "Stalo se tak roku 1850."}
-              {:type :yesno
-               :text "Česká republika v současnosti (srpen 2024) předsedá Komisi OSN pro postavení žen."
-               :correct? false
-               :note "Předsedá jí Saúdská Arábie, navzdory hlasité kritice jejího zacházení se ženami."}
               {:type :multiple
                :text "Co je to 'zločin ze cti'?"
                :choices [{:text "Akt násilí na ženě, o které muž tvrdí, že poškodila čest rodiny" :correct? true}
