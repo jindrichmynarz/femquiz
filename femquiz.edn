@@ -1333,4 +1333,27 @@
               {:type :percent-range
                :text "Kolik procent českých žen zažilo genderově-podmíněné násilí?"
                :percentage 19.7
-               :note [:span "Vyplývá tak z průzkumu " [:a {:href "https://eige.europa.eu/publications-resources/publications/eu-gender-based-violence-survey-key-results"} "EU gender-based violence survey"] "z roku 2024."]}}}
+               :note [:span "Vyplývá tak z průzkumu " [:a {:href "https://eige.europa.eu/publications-resources/publications/eu-gender-based-violence-survey-key-results"} "EU gender-based violence survey"] "z roku 2024."]}
+              {:type :yesno
+               :text "Podle průzkumu CZECHSEX z roku 2024 začínají čeští muži se sexem dříve než ženy."
+               :correct? false
+               :note [:span "U žen je to průměrně 17,46 let, u mužů 18,33 let (" [:a {:href "https://www.nudz.cz/media-pr/tiskove-zpravy/prvni-vysledky-pruzkumu-czechsex-frekvence-sexualnich-aktivit-cechu-klesa-seznamovani-se-vice-presouva-na-internet-vetsina-je-se-svym-sexualnim-zivotem-spokojena"} "zdroj"] ")."]}
+              {:type :multiple
+               :text "Jaký je podle průzkumu CZECHSEX z roku 2024 nejčastější způsob dosažení orgasmu u českých žen při partnerských aktivitách?"
+               :choices [{:text "Kombinovaným drážděním" :correct? true}
+                         {:text "Klitorálním drážděním"}
+                         {:text "Intelektuální konverzací"}
+                         {:text "Když partner uklidí"}]
+               :note "V průzkumu to uvedlo 48,6 % žen."}
+              {:type :percent-range
+               :text "Jaké procento respondentů průzkumu CZECHSEX uvedlo, že mají v dlouhodobém vztahu kromě partnera také sexuální vztah?"
+               :percentage 26.7
+               :note [:a {:href "https://www.nudz.cz/media-pr/tiskove-zpravy/prvni-vysledky-pruzkumu-czechsex-frekvence-sexualnich-aktivit-cechu-klesa-seznamovani-se-vice-presouva-na-internet-vetsina-je-se-svym-sexualnim-zivotem-spokojena"} "Zdroj"]}
+              {:type :percent-range
+               :text "Kolik procent žen podle průzkumu CZECHSEX nikdy v životě nemasturbovalo?"
+               :percentage 21.3
+               :note [:span "U mužů to bylo 5,2 % (" [:a {:href "https://www.nudz.cz/media-pr/tiskove-zpravy/prvni-vysledky-pruzkumu-czechsex-frekvence-sexualnich-aktivit-cechu-klesa-seznamovani-se-vice-presouva-na-internet-vetsina-je-se-svym-sexualnim-zivotem-spokojena"} "zdroj"] ")."]}
+              {:type :percent-range
+               :text "Kolik procent českých mužů ve věku 18-25 let podle průzkumu CZECHSEX z roku 2024 nikdy nemělo sex?"
+               :percentage 54.4
+               :note [:span "U žen stejného věku je to 30 % (" [:a {:href "https://www.nudz.cz/media-pr/tiskove-zpravy/prvni-vysledky-pruzkumu-czechsex-frekvence-sexualnich-aktivit-cechu-klesa-seznamovani-se-vice-presouva-na-internet-vetsina-je-se-svym-sexualnim-zivotem-spokojena"} "zdroj"] ")."]}}}
