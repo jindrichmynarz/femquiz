@@ -1323,4 +1323,14 @@
               {:type :yesno
                :text "Saúdská Arábie během roku 2024 předsedala Komisi OSN pro postavení žen."
                :correct? true
-               :note "Bylo to navzdory hlasité kritice jejího zacházení se ženami."}}}
+               :note "Bylo to navzdory hlasité kritice jejího zacházení se ženami."}
+              {:type :multiple
+               :text "Jak se jmenuje podcast feministek Ireny Hůlové a Johanny Nejedlové?"
+               :choices [{:text "Ponorka" :correct? true}
+                         {:text "Stárnoucí mileniálky"}
+                         {:text "Pot"}
+                         {:text "Slast"}]}
+              {:type :percent-range
+               :text "Kolik procent českých žen zažilo genderově-podmíněné násilí?"
+               :percentage 19.7
+               :note [:span "Vyplývá tak z průzkumu " [:a {:href "https://eige.europa.eu/publications-resources/publications/eu-gender-based-violence-survey-key-results"} "EU gender-based violence survey"] "z roku 2024."]}}}
