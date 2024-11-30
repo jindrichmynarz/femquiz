@@ -1319,4 +1319,8 @@
                :choices [{:text "Zmlátili je" :correct? true}
                          {:text "Přidali se k nim"}
                          {:text "Zavolali policii"}
-                         {:text "Odešli domů"}]}}}
+                         {:text "Odešli domů"}]}
+              {:type :yesno
+               :text "Saúdská Arábie během roku 2024 předsedala Komisi OSN pro postavení žen."
+               :correct? true
+               :note "Bylo to navzdory hlasité kritice jejího zacházení se ženami."}}}
