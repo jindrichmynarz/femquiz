@@ -1313,4 +1313,10 @@
                :note "Označuje posed s roztaženýma nohama, zejména mužů opanujících veřejný prostor."}
               {:type :yesno
                :text "Mají svobodné ženy v Česku přístup k umělému oplodnění?"
-               :correct? false}}}
+               :correct? false}
+              {:type :multiple
+               :text "Ženské křídlo italské radikální levicové organizace Lotta Continua roku 1975 demonstrovalo za rovná práva. Muži této organizace jim nabídli ochranu, kterou však ženy odmítly. Co udělali muži?"
+               :choices [{:text "Zmlátili je" :correct? true}
+                         {:text "Přidali se k nim"}
+                         {:text "Zavolali policii"}
+                         {:text "Odešli domů"}]}}}
