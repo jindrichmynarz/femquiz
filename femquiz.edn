@@ -1356,4 +1356,16 @@
               {:type :percent-range
                :text "Kolik procent českých mužů ve věku 18-25 let podle průzkumu CZECHSEX z roku 2024 nikdy nemělo sex?"
                :percentage 54.4
-               :note [:span "U žen stejného věku je to 30 % (" [:a {:href "https://www.nudz.cz/media-pr/tiskove-zpravy/prvni-vysledky-pruzkumu-czechsex-frekvence-sexualnich-aktivit-cechu-klesa-seznamovani-se-vice-presouva-na-internet-vetsina-je-se-svym-sexualnim-zivotem-spokojena"} "zdroj"] ")."]}}}
+               :note [:span "U žen stejného věku je to 30 % (" [:a {:href "https://www.nudz.cz/media-pr/tiskove-zpravy/prvni-vysledky-pruzkumu-czechsex-frekvence-sexualnich-aktivit-cechu-klesa-seznamovani-se-vice-presouva-na-internet-vetsina-je-se-svym-sexualnim-zivotem-spokojena"} "zdroj"] ")."]}
+              {:type :multiple
+               :text "Co je to menarche?"
+               :choices [{:text "První menstruace" :correct? true}
+                         {:text "Vláda mužů"}
+                         {:text "Bohyně plodnosti"}
+                         {:text "Vrcholná fáze menopauze"}]}
+              {:type :multiple
+               :text "Jaký je průměrný věk první menstruace?"
+               :choices [{:text "12,5" :correct? true}
+                         {:text "10"}
+                         {:text "15,5"}
+                         {:text "16"}]}}}
