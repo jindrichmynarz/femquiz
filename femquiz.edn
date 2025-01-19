@@ -1368,4 +1368,13 @@
                :choices [{:text "12,5" :correct? true}
                          {:text "10"}
                          {:text "15,5"}
-                         {:text "16"}]}}}
+                         {:text "16"}]}
+              {:type :multiple
+               :text [:<>
+                      [:p "Bývalý prezident Evropské komise Jean Rey roku 1974 řekl:"]
+                      [:blockquote "Hluboce nesouhlasím se situací, kdy by o politice této velké země měly rozhodovat ženy v domácnosti."]
+                      [:p "Jak citát pokračuje?"]]
+               :choices [{:text "O té by měli rozhodovat kvalifikovaní lidé s informacemi." :correct? true}
+                         {:text "To by pak chtěly rozhodovat i v domácnosti."}
+                         {:text "Neunesly by tíhu svých rozhodnutí."}
+                         {:text "Na city není ve vysoké politice místo."}]}}}
