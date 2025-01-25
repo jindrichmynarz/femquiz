@@ -1377,4 +1377,10 @@
                :choices [{:text "O té by měli rozhodovat kvalifikovaní lidé s informacemi." :correct? true}
                          {:text "To by pak chtěly rozhodovat i v domácnosti."}
                          {:text "Neunesly by tíhu svých rozhodnutí."}
-                         {:text "Na city není ve vysoké politice místo."}]}}}
+                         {:text "Na city není ve vysoké politice místo."}]}
+              {:type :multiple
+               :text "Čemu se říká \"pink tax\"?"
+               :choices [{:text "Přirážka v ceně (často růžově zbarvených) produktů určených pro ženy" :correct? true}
+                         {:text "Středověká daň odváděná ze zabíjaček prasat"}
+                         {:text "Náklady na vydržování přítelkyně-zlatokopky"}
+                         {:text "Náklady na podporu genderové inkluze"}]}}}
